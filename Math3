@@ -2,4 +2,11 @@
 #include <iostream>
 using namespace std;
 int main()
-{}
+{
+	float MathGrade, EnglishGrade, Avarge;
+	string status;
+
+	cout << "Enter math Value = "; cin >> MathGrade;
+	cout << "Enter English Value = "; cin >> EnglishGrade;
+
+}
