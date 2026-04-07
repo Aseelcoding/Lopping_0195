@@ -16,4 +16,7 @@ if ((Avarge > 60) && (MathGrade >= 70))
 else
 	status = "Fail\n";
 
+	cout << "Status = " << status << "And the Avarge Was = " << Avarge << endl;
+
+
 }
