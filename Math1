@@ -9,4 +9,11 @@ cout << "Enter math Value = "; cin >> MathGrade;
 cout << "Enter English Value = "; cin >> EnglishGrade;
 
 
+	Avarge = (EnglishGrade + MathGrade) / 2;
+
+	if (!(Avarge < 60))
+		status = "Pass\n";
+	else
+		status = "Fail\n";
+
 }
