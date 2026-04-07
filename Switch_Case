@@ -2,6 +2,16 @@
 using namespace std;
 int MajorCode;
 string MajorName, QuotaStatus;
+void Input()
+{
+	cout << "=== Campus Major Registration ===\n";
+	cout << "1. Information Technology\n";
+	cout << "2. Electrical Engineering\n";
+	cout << "3. Information Systems\n\n";
+
+	cout << "----------------------------------------------------------\n";
+	cout << "Enter Major Code (1-3) :  "; cin >> MajorCode;
+}
 int main()
 {
 
