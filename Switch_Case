@@ -41,6 +41,14 @@ void SelectMajor()
 
 
 }
+void Output()
+{
+
+	cout << "\n===Seelction Result===\n";
+	cout << "Major Name : " << MajorName << endl;
+	cout << "Seats Status :" << QuotaStatus << endl;
+	cout << "-----------------------------------------------";
+}
 int main()
 {
 
