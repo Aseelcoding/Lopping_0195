@@ -51,6 +51,9 @@ void Output()
 }
 int main()
 {
-
+Input();
+SelectMajor();
+Output();
+return 0;
 
 }
