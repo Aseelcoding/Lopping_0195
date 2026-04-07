@@ -22,5 +22,13 @@ srand(time(0));
 cout << "While Loop" << endl;
 
 x = 1 + rand() % 10;
+while(x<=5)
+{
+
+    cout << "Random Number = " << x << endl;
+    x = rand() % 10;
+
+}
+cout << "Last Random Number while = " << x << endl << endl;
 
 }
